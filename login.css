@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'GintoNordBold';
+    src: url('fonts/ABCGintoNord-Bold.otf') format('opentype');
+}
+
+* {
+    font-family: "fonts/ABCGintoNordCondensed-Black-Trial-BF651b7b77b5cf2.otf", sans-serif;
+}
+
+body {
+    background:
+        url("assets/login_bg.svg"),
+        url('assets/bgimages.webp');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(20px);
+    background: rgb(0, 0, 0, 0.3);
+    display: none;
+    z-index: 5;
+} */
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66vh;
+    width: 58vw;
+    font-family: Abcgintodiscord, sans-serif;
+    border-radius: 10px;
+    gap: 10px;
+    margin-top: -15px;
+    background-color: #2f3235;
+    margin-left: 20px;
+}
+
+
+input {
+    width: 28vw;
+    height: 6vh;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 66, 66);
+    margin-top: 5px;
+    padding-left: 10px;
+    color: white;
+    margin-bottom: 2px;
+    outline: 1px solid rgb(66, 66, 66);
+    font-family: Abcgintodiscord, sans-serif;
+}
+
+input:hover {
+    outline: 1px solid rgb(0, 132, 255);
+}
+
+
+
+button {
+    width: 29vw;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    font-family: Abcgintodiscord, sans-serif;
+    background-color: rgb(57, 159, 255);
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+label {
+    font-size: 14px;
+    color: white;
+    font-family: Abcgintodiscord, sans-serif;
+    font-weight: 600;
+}
+
+.welcomr_to_discord {
+    height: 56vh;
+    width: 32vw;
+}
+
+.welcomr_to_discord h2 {
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-family: Abcgintodiscord, sans-serif;
+    margin-bottom: -6px;
+    color: white;
+}
+
+.welcomr_to_discord p {
+    text-align: center;
+    color: white;
+    font-family: Abcgintodiscord, sans-serif;
+}
+
+.qrCode_Section {
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.qrImage {
+    margin-left: 19%;
+    width: 13vw;
+    height: 28vh;
+}
+
+.qrImage img {
+    margin-left: -10px;
+    margin-top: -2px;
+    width: 14vw;
+    height: 29vh;
+    overflow: hiddens;
+}
+
+.qrcode {
+    width: 20vw;
+    font-family: Abcgintodiscord, sans-serif;
+}
+
+.qrcode h3 {
+    text-align: center;
+    font-family: Abcgintodiscord, sans-serif;
+    color: white;
+    margin-bottom: -6px;
+    font-size: 22px;
+    margin-top: 34px;
+}
+
+.qrcode p {
+    text-align: center;
+    font-family: Abcgintodiscord, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+
+.need_an_account {
+    color: thistle;
+    font-size: 15px;
+}
+
+.loginsection a {
+    text-decoration: none;
+    color: rgb(74, 134, 190);
+    font-size: 15px;
+    font-family: Abcgintodiscord, sans-serif;
+    font-weight: 500;
+}
+
+.loginsecton a:hover {
+    text-decoration: underline;
+}
