@@ -18,6 +18,10 @@ body {
     background-position: center;
 }
 
+.bgimg img {
+    width: 100%;
+}
+
 @font-face {
     font-family: 'GintoNordBold';
     src: url('fonts/ABCGintoNord-Bold.otf') format('opentype');
